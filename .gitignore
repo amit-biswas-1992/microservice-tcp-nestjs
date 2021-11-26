@@ -1,0 +1,57 @@
+# compiled output
+
+nestjs.micro.client/dist
+nestjs.micro.client/node_modules
+
+nestjs.micro.server/dist
+nestjs.micro.server/node_modules
+
+# Logs
+nestjs.micro.client/logs
+nestjs.micro.client/*.log
+nestjs.micro.client/npm-debug.log*
+nestjs.micro.client/yarn-debug.log*
+nestjs.micro.client/yarn-error.log*
+nestjs.micro.client/lerna-debug.log*
+
+nestjs.micro.server/logs
+nestjs.micro.server/*.log
+nestjs.micro.server/npm-debug.log*
+nestjs.micro.server/yarn-debug.log*
+nestjs.micro.server/yarn-error.log*
+nestjs.micro.server/lerna-debug.log*
+
+# OS
+nestjs.micro.client/.DS_Store
+nestjs.micro.server/.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+nestjs.micro.client/.vscode/*
+nestjs.micro.client/!.vscode/settings.json
+nestjs.micro.client/!.vscode/tasks.json
+nestjs.micro.client/!.vscode/launch.json
+nestjs.micro.client/!.vscode/extensions.json
+nestjs.micro.client/**/.history/**
+
+nestjs.micro.server/.vscode/*
+nestjs.micro.server/!.vscode/settings.json
+nestjs.micro.server/!.vscode/tasks.json
+nestjs.micro.server/!.vscode/launch.json
+nestjs.micro.server/!.vscode/extensions.json
+nestjs.micro.server/**/.history/**
+
+nestjs.micro.client/.env
+nestjs.micro.server/.env
